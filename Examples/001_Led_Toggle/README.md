@@ -7,3 +7,9 @@ This project illustrates the process of switching LEDs on and off using GPIO pin
 ## Features
 Central LED Toggle Logic: A dedicated function, led_toggle(), defined in led_toggle.c, manages all LED-switching operations.
 Function Behavior: The led_toggle() routine controls three LEDs—blue, green, and red—each connected to specific GPIO pins. The function toggles them one after another, producing a repeating cycle of LED activity.
+## Flashing Code
+
+
+
+
+![Led_Toggling](https://github.com/user-attachments/assets/45bd6164-3f4f-401a-aba6-18626d210fdd)
