@@ -5,6 +5,10 @@
 ## 002_UserButton_LED
 This project manages an LED using the onboard push-button available on the STM32 Nano board. When the button is pressed, the LED stays ON; when the button is released, the LED switches OFF.
 
+## Pin used
+PA8, PA9, PB5
+UserButton(Push Button): PC13
+
 ## Features
 **LED Behavior:**
 
