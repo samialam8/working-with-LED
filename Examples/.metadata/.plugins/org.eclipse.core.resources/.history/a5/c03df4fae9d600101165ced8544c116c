@@ -1,0 +1,30 @@
+/*
+ * led_toggle.c
+ *
+ *  Created on: Dec 11, 2025
+ *      Author: mohammadsamialam
+ */
+
+#include "main.h"
+
+/**
+ * Toggles the state of the LED.
+ */
+
+void led_toggle(){
+	HAL_GPIO_TogglePin(BLUE_LED_GPIO_Port, BLUE_LED_Pin); // Toggle BLUE_LED
+	HAL_Delay(250);
+	HAL_GPIO_TogglePin(RED_LED_GPIO_Port, RED_LED_Pin); // Toggle RED_LED
+	HAL_Delay(250);
+	HAL_GPIO_TogglePin(GREEN_LED_GPIO_Port, GREEN_LED_Pin); // Toggle GREEN_LED
+	HAL_Delay(250);
+
+	HAL_GPIO_TogglePin(RED_LED_GPIO_Port, RED_LED_Pin); // Toggle RED_LED
+	HAL_Delay(250);
+	HAL_GPIO_TogglePin(GREEN_LED_GPIO_Port, GREEN_LED_Pin); // Toggle GREEN_LED
+	HAL_Delay(250);
+	HAL_GPIO_TogglePin(BLUE_LED_GPIO_Port, BLUE_LED_Pin); // Toggle BLUE_LED
+	HAL_Delay(250);
+}
+
+
