@@ -1,3 +1,10 @@
+## Flashing Code
+
+
+
+
+![Led_Toggling](https://github.com/user-attachments/assets/45bd6164-3f4f-401a-aba6-18626d210fdd)
+
 ## 001_LED_Toggle
 This project will show programming of the STM32 Nucleo-F466RE board to toggle LEDs.
 
@@ -12,9 +19,4 @@ This project illustrates the process of switching LEDs on and off using GPIO pin
 ## Pin used
 PA8, PA9, PB5
 
-## Flashing Code
 
-
-
-
-![Led_Toggling](https://github.com/user-attachments/assets/45bd6164-3f4f-401a-aba6-18626d210fdd)
